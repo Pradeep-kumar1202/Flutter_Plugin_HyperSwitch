@@ -1,0 +1,63 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_hyperswitch (0.0.1):
+    - Flutter
+    - hyperswitch-sdk-ios/netcetera3ds (~> 0.1.6)
+    - hyperswitch-sdk-ios/scancard (~> 0.1.6)
+    - hyperswitch-sdk-ios/sentry (~> 0.1.6)
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - Hyperswitch-Hermes (0.72.6)
+  - hyperswitch-sdk-ios/core (0.1.6):
+    - Hyperswitch-Hermes
+    - KlarnaMobileSDK
+  - hyperswitch-sdk-ios/netcetera3ds (0.1.6):
+    - Hyperswitch-Hermes
+    - hyperswitch-sdk-ios/core
+    - KlarnaMobileSDK
+  - hyperswitch-sdk-ios/scancard (0.1.6):
+    - Hyperswitch-Hermes
+    - hyperswitch-sdk-ios/core
+    - KlarnaMobileSDK
+  - hyperswitch-sdk-ios/sentry (0.1.6):
+    - Hyperswitch-Hermes
+    - hyperswitch-sdk-ios/core
+    - KlarnaMobileSDK
+  - KlarnaMobileSDK (2.6.22):
+    - KlarnaMobileSDK/basic (= 2.6.22)
+  - KlarnaMobileSDK/basic (2.6.22)
+  - Toast (4.1.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_hyperswitch (from `.symlinks/plugins/flutter_hyperswitch/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Hyperswitch-Hermes
+    - hyperswitch-sdk-ios
+    - KlarnaMobileSDK
+    - Toast
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_hyperswitch:
+    :path: ".symlinks/plugins/flutter_hyperswitch/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_hyperswitch: 748a6ad09d554e13415d8139afb850d047d78967
+  fluttertoast: e9a18c7be5413da53898f660530c56f35edfba9c
+  Hyperswitch-Hermes: a5816f9e73c4f75db91003ae7918f39640b2f23c
+  hyperswitch-sdk-ios: 0dfd0ed99b8a9c18cddd47b14b1b2b86aee88ecb
+  KlarnaMobileSDK: ad9bbaf1c8a529a497f84f33f4cfb66461b6ca0e
+  Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
+
+PODFILE CHECKSUM: a57f30d18f102dd3ce366b1d62a55ecbef2158e5
+
+COCOAPODS: 1.15.2
